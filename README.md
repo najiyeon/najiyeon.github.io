@@ -1,1 +1,0 @@
-# najiyeon.github.io
