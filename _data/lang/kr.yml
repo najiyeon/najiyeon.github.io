@@ -1,0 +1,235 @@
+# Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+# 저작권 (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+# MIT 라이선스에 따름
+
+lng:
+  name: 한국어
+  # ISO_639-1 기반 코드
+  code: ko
+  # open-graph meta og:locale을 위해 필요한 정보입니다.
+  # _data/conf/main.yml에 open_graph 또는 html_lng_with_country_code가 활성화되지 않은 경우에는 필요하지 않습니다.
+  # HTML 태그에서는 _data/conf/main.yml에 정의된 html_lng_with_country_code를 사용하거나 사용하지 않을 수 있습니다.
+  country: KR
+  switch_title: 한
+  offer:
+    title: 언어 선택
+    msg_page: 이 페이지를 한국어로 보기.
+    # 페이지 번역이 사용 불가능한 경우 이 메시지를 사용합니다.
+    msg_site: 홈으로
+
+date:
+  # 긴 형식에서 %b를 사용하면 'months' 목록 아래에 해당하는 항목으로 바뀝니다.
+  long: "%Y년 %b %-d일"
+  day: "%d"
+  year: "%Y"
+  # months는 아카이브 페이지에서도 사용됩니다.
+  months: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
+
+not_found:
+  header: 페이지를 찾을 수 없음
+  line1: 요청한 페이지를 찾을 수 없습니다.
+  line2: 메뉴를 시도하거나 가능한 경우 사이트 검색을 시도하세요.
+
+no_translation_tooltip: 번역 없음
+
+navigation:
+  contact_header: 연락처
+
+color_scheme_switch_tooltip: 색상 테마
+
+search:
+  placeholder: 검색
+  noResultText: 결과를 찾을 수 없습니다.
+
+image_viewer:
+  load_error: 이미지를 불러올 수 없습니다.
+
+copyright:
+  additional_text: " 저작권 보호됨."
+
+creative_commons:
+  some_rights_reserved: 일부 저작권 보호됨.
+  # 라이선스 유형에 따라 _data/owner/[language].yml을 확인하십시오.
+  by: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+  by-nd: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NoDerivatives 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+  by-sa: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-ShareAlike 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+  by-nc: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+  by-nc-nd: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+  by-nc-sa: 별도로 표기되지 않은 한, 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 국제 라이선스에 따라 라이선스가 부여됩니다.
+
+# 404 레이아웃용
+not-found:
+  title: "404"
+
+# 포스트 레이아웃용
+post:
+  read_time:
+    unit: " 분"
+    text: " 소요"
+    # w는 단어, c는 문자입니다.
+    word_char: w
+    # 분당 문자 또는 단어 수
+    per_minute: 200
+  pager_buttons:
+    older_post: "← 이전 글"
+    newer_post: "다음 글 →"
+    first_post: 처음
+    last_post: 마지막
+  comments:
+    noscript: 댓글을 보려면 JavaScript를 활성화하세요.
+    disqus:
+      count_title: 댓글
+      click_to_load: "댓글 불러오기"
+      consent:
+        title: 댓글 (Disqus.com)
+        text: >
+          댓글 기능은 제3자에 의해 호스팅됩니다. 외부 콘텐츠를 표시함으로써 disqus.com의 $terms와 $privacy_policy을 받아들입니다.
+          <br>타겟팅 광고 수신 거부를 원하면 $settings_link를 열고 "수신 거부" 버튼을 클릭한 후 닫으세요. 여기로 돌아와 댓글을 불러오세요.
+        terms_link_text: 이용 약관
+        privacy_link_text: 개인 정보 정책
+        settings_link_text: 이 링크
+        button:
+          load_once: 이번에만 표시
+          load_and_do_not_ask_again: 항상 표시
+  table_of_contents:
+    heading: 목차
+    tooltip:
+      move: 드래그하여 이동
+      close: 닫기
+  share:
+    heading: 공유하기
+    link_copied: 링크 복사 완료!
+    tooltip:
+      # 키는 _data/share.yml과 일치해야 합니다.
+      twitter: Twitter
+      facebook: Facebook
+      telegram: Telegram
+      linkedin: LinkedIn
+      email: Email
+      copy_link: 링크 복사
+
+# 포스트 목록 레이아웃용
+post-list:
+  title: 블로그
+  button_name: 블로그
+  upside_down_tabs:
+    tab:
+      all: 전체
+      categories: 카테고리
+      tags: 태그
+      years: 년도
+      clear: 지우기
+      close: 닫기
+      tooltip:
+        clear: 지우기
+        close: 닫기
+    msg:
+      property_list:
+        # 키는 /query/post-query.json과 일치해야 합니다.
+        tags: 태그
+        category: 카테고리
+        year: 년도
+      # 와일드카드인 {property}, {value}, {thumb}을 사용할 수 있습니다.
+      resultFoundTitleFormat: "{property} : {thumb}"
+
+# 홈 레이아웃용
+home:
+  title: 환영합니다
+  button_name: 홈
+  new_posts_title: 새로운 글
+  new_posts_show_more_button: 더 보기 ...
+
+# 아카이브 레이아웃용
+archives:
+  title: 아카이브
+  button_name: 아카이브
+  page_header: 아카이브
+
+# 소개 레이아웃용
+about:
+  title: 소개
+  button_name: 소개
+  email_title: 이메일
+
+# 링크 레이아웃용
+links:
+  title: 링크
+  button_name: 링크
+  link_text: 웹 사이트
+  info_text: 정보
+
+# 프로젝트 레이아웃용
+projects:
+  title: 프로젝트
+  button_name: 프로젝트
+  read_more_text: 더 읽기
+  read_less_text: 덜 읽기
+
+# 개인정보 보호 정책 레이아웃용
+privacy-policy:
+  title: &privacy_policy_title 개인정보 보호 정책
+
+# 대체해야 할 상수
+constants:
+  greetings: 안녕하세요
+  welcome: 환영합니다
+  sample: 샘플
+
+# 연락처 양식용
+contact_form:
+  button_name: 연락처 양식
+  formLoadingText: 연락처 양식을 불러오는 중...
+
+# 쿠키 동의용
+cookie_consent:
+  privacy_policy_link_text: *privacy_policy_title
+  side_nav_setting_button_tooltip: &cookie_settings 쿠키 설정
+  panel_bar:
+    msg: >
+      이 웹 사이트는 사이트 기능을 최적화하기 위해 쿠키를 사용합니다.
+      동의하면 활성화됩니다.
+    privacy_msg: $privacy_link을 확인하세요.
+    buttons:
+      accept: &accept_button 모두 허용
+      settings: 설정하기
+      deny: &deny_button 거부
+  panel_settings:
+    title: *cookie_settings
+    msg: >
+      이 웹 사이트는 사이트 기능을 최적화하기 위해 쿠키를 사용합니다.
+      동의하면 활성화됩니다. 쿠키 정책에 대한 자세한 내용은 아래 각 항목을 클릭하세요.
+    privacy_msg: $privacy_link을 확인하세요.
+    buttons:
+      accept: *accept_button
+      save: 선택 허용
+      deny: *deny_button
+    always_active: 항상 활성화
+    consent_types:
+      necessary:
+        title: 필수 쿠키
+        info: >
+          이 쿠키는 웹 사이트 기능에 필수적이며 비활성화할 수 없습니다.
+          보통 사이트의 기능(색상 테마 등)이 변경될 때 설정됩니다.
+          이 쿠키는 개인 식별 정보를 저장하지 않습니다.
+          $gtag_info
+      analytics:
+        title: 성능 쿠키
+        info: $gtag_info
+      preferences:
+        title: 기능 쿠키
+        info: $gtag_info
+      advertising:
+        title: 타겟팅 및 광고 쿠키
+        info: $gtag_info
+    gtag_info:
+      # https://support.google.com/tagmanager/answer/10718549#consent-types 참고
+      ad_storage: >
+        광고와 관련된 저장(쿠키 등)을 활성화합니다.
+      analytics_storage: >
+        분석과 관련된 저장(쿠키 등)을 활성화합니다. 방문 지속 시간과 같은 정보가 포함됩니다.
+      functionality_storage: >
+        웹 사이트 또는 앱의 기능을 지원하는 저장을 활성화합니다. 언어 설정과 같은 기능을 포함합니다.
+      personalization_storage: >
+        개인화와 관련된 저장을 활성화합니다. 비디오 추천과 같은 정보가 포함됩니다.
+      security_storage: >
+        인증 기능, 사기 방지 및 다른 사용자 보호와 관련된 저장을 활성화합니다.
