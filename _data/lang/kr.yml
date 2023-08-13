@@ -134,7 +134,7 @@ post-list:
 
 # 홈 레이아웃용
 home:
-  title: 환영합니다
+  title: Hi! I am
   button_name: 홈
   new_posts_title: 새로운 글
   new_posts_show_more_button: 더 보기 ...
@@ -171,9 +171,9 @@ privacy-policy:
 
 # 대체해야 할 상수
 constants:
-  greetings: 안녕하세요
-  welcome: 환영합니다
-  sample: 샘플
+  greetings: Hi!
+  welcome: Hi I am
+  sample: Developer / Hanyang Univ.
 
 # 연락처 양식용
 contact_form:
