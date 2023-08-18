@@ -6,10 +6,11 @@ page_data:
   main:
     header: "Projects"
     info: "Exploring My Work"
-    text_color: "white"
+    text_color: "black"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
-    back_color: "lightblue"
+    # back_color: "lightblue"
+    # back_color: "black"
 
   category:
     - title: "Python"
@@ -17,10 +18,10 @@ page_data:
       color: "gray"
     - title: "C"
       type: id_c
-      color: "#62b462"
+      color: "#27374D"
     - title: "Flutter"
       type: id_flutter
-      color: "#2FD0ED"
+      color: "black"
 
   list:
     # python
