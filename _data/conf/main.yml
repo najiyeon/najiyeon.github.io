@@ -58,8 +58,14 @@ greetings_replace: "$site_greetings"
 # replace text with data.lang[language].constants.welcome
 welcome_replace: "$site_welcome"
 
-# replace text with data.lang[language].constants.sample
-sample_replace: "$site_sample"
+# # replace text with data.lang[language].constants.sample
+# sample_replace: "$site_sample"
+
+# replace text with data.lang[language].constants.intro
+intro_replace: "$site_intro"
+
+# replace text with data.lang[language].constants.subtitle
+subtitle_replace: "$site_subtitle"
 
 ###########################################################
 #                Search

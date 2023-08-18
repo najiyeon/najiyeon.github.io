@@ -172,8 +172,9 @@ privacy-policy:
 # constants to be replaced for
 constants:
   greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  welcome: Hi there! I am
+  intro: Developer / Hanyang Univ.
+  subtitle: I'm a student at Hanyang University. I'm interested in AI and web development. I'm studying hard to become a good developer.
 
 # for contact form
 contact_form:
