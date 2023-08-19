@@ -174,7 +174,12 @@ constants:
   greetings: Hello
   welcome: Hi there! I am
   intro: Developer / Hanyang Univ.
-  subtitle: I'm a student at Hanyang University. I'm interested in AI and web development. I'm studying hard to become a good developer.
+  subtitle: | 
+    Greetings! I'm a dedicated student enrolled in the Computer Software Engineering program at Hanyang University. I am committed to carving my path towards becoming a skilled developer. 
+
+    My aspiration is to specialize as a backend developer. Through rigorous studies and hands-on experiences, I am diligently working to enhance my skills and knowledge in pursuit of this goal.
+
+    Here's to the future of innovation and endless learning!
 
 # for contact form
 contact_form:
