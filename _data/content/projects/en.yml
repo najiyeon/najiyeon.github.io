@@ -75,14 +75,22 @@ page_data:
     - type: id_c
       project_name: "Computer Architecture Project 01"
       project_excerpt: "LC-2K Assembly Language and Assembler & Behavioral Simulator & Assembly-Language Multiplication"
-      img: ":ca_project1.jpg"
-      img_title: "img title2"
+      img: ":ca_project1.png"
+      img_title: "assembly language multiplication"
       date: "2023-04-14"
       post: |
-        # Title
-        This is project content.
+        ##### [LC-2K Assembly Language and Assembler & Behavioral Simulator & Assembly-Language Multiplication](https://github.com/najiyeon/ITE2031_Computer_Architecture#lc-2k-instruction-set-architecture)
 
-        ![Image](:project2_thumb.jpg)
+        This project is intended to help understand the instructions of a very simple assembly language and how to assemble programs into machine language.
+
+        > **1. LC-2K Assembly Language and Assembler**
+          - The first part of this project is to write a program to take an assembly-language program and translate it into machine language.
+
+        > **2. Behavioral Simulator**
+          - The second part of this assignment is to write a program that can simulate any legal LC-2K machine-code program.
+
+        > **3. Assembly-Language Multiplication**
+          - The third part of this assignment is to write an assembly-language program to multiply two numbers.
 
     # Flutter
     - type: id_flutter
@@ -231,30 +239,3 @@ page_data:
         for i in range(5, 10):
           print(i)
         ```
-
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Albert Einstein"
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
-      date: "2021-06-08"
-      post: |
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
-
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mae West"
-      img: ":project1_thumb.jpg"
-      img_title: "img title5"
-      date: "2021-08-20"
-      post: |
-        You only live once, but if you do it right, once is enough.
-
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mahatma Gandhi "
-      img: ":project2_thumb.jpg"
-      img_title: "img title6"
-      date: "2021-12-20"
-      post: |
-        Be the change that you wish to see in the world.
