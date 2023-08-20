@@ -26,11 +26,71 @@ page_data:
   list:
     # python
     - type: id_python
+      project_name: "Computer Graphics Project 01"
+      project_excerpt: "Basic OpenGL viewer"
+      img: ":cg_project1.png"
+      img_title: "basic opengl viewer"
+      date: "2023-04-03"
+      post: |
+        ## [Project 01 : Basic OpenGL viewer](https://github.com/najiyeon/CSE4020_Computer_Graphics/blob/main/project1/main.py)
+
+        #### Manipulate the camera with mouse movement
+
+        > 1. **Orbit**: Rotate the camera around the target point by changing azimuth / elevation angles. (MMB (mouse middle button) in Blender)
+        2. **Pan**: Move both the target point and camera in left, right, up and down direction of the camera. (Shift-MMB in Blender)
+        3. **Zoom**: Move the camera forward toward the target point (zoom in) and backward away from the target point. (zoom out) (Ctrl-MMB in Blender)
+        4. Toggle **perspective projection / orthogonal projection** by pressing ‘v’ key.
+        5. Draw a **rectangular grid** with lines (not polygons) on xz plane as a reference ground plane. (like Blender)        
+
+    # python
+    - type: id_python
+      project_name: "Computer Graphics Project 02"
+      project_excerpt: "Obj viewer & drawing a hierarchical model"
+      img: ":cg_project2.png"
+      img_title: "hierarchical model"
+      date: "2023-04-17"
+      post: |
+        ## [Project 02 : Obj viewer & drawing a hierarchical model](https://github.com/najiyeon/CSE4020_Computer_Graphics/blob/main/project2/main.py)
+
+        #### Implement my own obj file viewer 
+        
+        _1) showing a single loaded obj mesh and  2) showing an animation of a hierarchical model consisting of loaded obj meshes. The multiple light sources should be used for rendering._
+
+        > **1. Single mesh rendering mode**
+          - Open an obj file by drag-and-drop to your obj viewer window.
+          - Read the obj file and display the mesh only using vertex positions, vertex normals, faces information.
+          - When open an obj file, print out the following information of the obj file to stdout. (terminal)
+        
+        > **2. Animating hierarchical model rendering mode**
+          - When a user presses a key ‘h’ on your viewer, your program should run in “animating hierarchical model rendering mode”.
+          - The model should consist of at least 3 different meshes loaded from 3 different downloaded obj files.
+          - The model should have a hierarchy of 3 levels and each node (except leaf nodes) should have at least 2 child nodes.
+          - Animate the model to show the hierarchical structure.
+
+        > **3. Lighting & Etc**
+          - Render all object using Phong Illumination and Phong shading.
+          - Toggle wireframe / solid mode by pressing ‘z’ key. (similar to pressing ‘z’ key in Blender)
+
+    # C
+    - type: id_c
+      project_name: "Computer Architecture Project 01"
+      project_excerpt: "LC-2K Assembly Language and Assembler & Behavioral Simulator & Assembly-Language Multiplication"
+      img: ":ca_project1.jpg"
+      img_title: "img title2"
+      date: "2023-04-14"
+      post: |
+        # Title
+        This is project content.
+
+        ![Image](:project2_thumb.jpg)
+
+    # Flutter
+    - type: id_flutter
       project_name: "Example Project"
-      project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
-      date: "2021-03-13"
+      project_excerpt: "William Shakespeare"
+      #img: ":project1_thumb.jpg"
+      #img_title: "img title3"
+      date: "2021-05-27"
       post: |
         # Examples
 
@@ -172,41 +232,6 @@ page_data:
           print(i)
         ```
 
-    # C
-    - type: id_c
-      project_name: "Example Project"
-      project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
-      img_title: "img title2"
-      date: "2021-04-23"
-      post: |
-        # Title
-        This is project content.
-
-        ![Image](:project2_thumb.jpg)
-
-    # Flutter
-    - type: id_flutter
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
-      post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Albert Einstein"
@@ -215,6 +240,7 @@ page_data:
       date: "2021-06-08"
       post: |
         Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mae West"
@@ -223,6 +249,7 @@ page_data:
       date: "2021-08-20"
       post: |
         You only live once, but if you do it right, once is enough.
+
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mahatma Gandhi "
