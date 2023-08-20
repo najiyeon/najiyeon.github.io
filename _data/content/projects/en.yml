@@ -92,6 +92,48 @@ page_data:
         > **3. Assembly-Language Multiplication**
           - The third part of this assignment is to write an assembly-language program to multiply two numbers.
 
+    # C
+    - type: id_c
+      project_name: "Operating System Project 01"
+      project_excerpt: "Implement simple scheduler on xv6"
+      img: ":os_project1.png"
+      img_title: "scheduler overview"
+      date: "2023-04-23"
+      post: |
+        #### Project 01 : Implement simple scheduler on xv6
+
+        [**project 1 code**](https://github.com/najiyeon/ELE3021_Operating_System/tree/master/project01/xv6-public)
+        
+        [**project 1 wiki**](https://github.com/najiyeon/ELE3021_Operating_System/wiki/Project-01)
+
+    # C
+    - type: id_c
+      project_name: "Operating System Project 02"
+      project_excerpt: "Process Management & LWP"
+      img: ":os_project2.png"
+      img_title: "process management : memlim"
+      date: "2023-05-28"
+      post: |
+        #### Project 02 : Process Management & LWP
+
+        [**project 2 code**](https://github.com/najiyeon/ELE3021_Operating_System/tree/master/project02/xv6-public)
+
+        [**project 2 wiki**](https://github.com/najiyeon/ELE3021_Operating_System/wiki/Project-02)
+
+    # C
+    - type: id_c
+      project_name: "Operating System Project 03"
+      project_excerpt: "File system"
+      img: ":os_project3.png"
+      img_title: "triple indirect"
+      date: "2023-06-16"
+      post: |
+        #### Project 03 : File system
+
+        [**project 3 code**](https://github.com/najiyeon/ELE3021_Operating_System/tree/master/project03/xv6-public)
+
+        [**project 3 wiki**](https://github.com/najiyeon/ELE3021_Operating_System/wiki/Project-03)
+
     # Flutter
     - type: id_flutter
       project_name: "Example Project"
