@@ -42,7 +42,7 @@ lng_pair: id_links
 page_data:
   main:
     header: "Links"
-    info: "Your Links page description."
+    info: "Explore a collection of relevant links showcasing my web development projects, collaborations open-source contributions, insightful blog posts, and inspiration sources."
     # text_color: "black"
     # img: "links-heading.jpg"
 
