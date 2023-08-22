@@ -43,6 +43,8 @@ page_data:
   main:
     header: "Links"
     info: "Your Links page description."
+    text_color: "black"
+    img: "links-heading.jpg"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
@@ -51,10 +53,10 @@ page_data:
       color: "gray"
     - title: "Web Design"
       type: id_webdesign
-      color: "#F4A273"
+      color: "#27374D"
     - title: "Programming"
       type: id_programming
-      color: "#62b462"
+      color: "black"
 
   list:
     -
