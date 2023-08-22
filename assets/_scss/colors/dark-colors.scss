@@ -242,9 +242,9 @@ $anchor-text-color-dark: #3389de;
 // layout: links
 // links/link-style
 %link-style-colors-dark {
-  --links-button-text-color: #{$container-background-dark};
-  --links-button-border-color: #{$container-background-dark};
-  --links-button-hover-color: #{$container-background-dark};
+  --links-button-text-color: #{$container-background-light};
+  --links-button-border-color: #{$container-background-light};
+  --links-button-hover-color: #{$container-background-light};
 }
 // layout: projects
 // projects/project-container

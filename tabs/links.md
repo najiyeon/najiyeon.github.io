@@ -43,8 +43,8 @@ page_data:
   main:
     header: "Links"
     info: "Your Links page description."
-    text_color: "black"
-    img: "links-heading.jpg"
+    # text_color: "black"
+    # img: "links-heading.jpg"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
