@@ -4,7 +4,7 @@
 page_data:
   main:
     header: "프로젝트"
-    info: "내 작업 탐색"
+    info: "프로젝트 둘러보기"
     text_color: "black"
     # 배경 이미지를 사용하지 않으려면 주석 처리하세요. 배경 색상(back_color)이 활성화됩니다.
     img: ":projects-heading.jpg"
@@ -72,7 +72,7 @@ page_data:
 
     # C
     - type: id_c
-      project_name: "컴퓨터 아키텍처 프로젝트 01"
+      project_name: "컴퓨터 구조론 프로젝트 01"
       project_excerpt: "LC-2K 어셈블리 언어 및 어셈블러 및 동작 시뮬레이터 및 어셈블리 언어 곱셈"
       img: ":ca_project1.png"
       img_title: "어셈블리 언어 곱셈"
