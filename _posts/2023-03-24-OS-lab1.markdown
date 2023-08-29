@@ -38,9 +38,6 @@ date: 2023-03-24 10:04:30 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-# LAB 녹강 : System call and User Program
-
-[lab03. System call and User Program.pdf](LAB%20%E1%84%82%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%BC%20System%20call%20and%20User%20Program%206fee1f1d9d724b15ad084562657aa5a8/lab03._System_call_and_User_Program.pdf)
 
 ## System Call
 
