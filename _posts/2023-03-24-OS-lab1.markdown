@@ -41,7 +41,8 @@ date: 2023-03-24 10:04:30 +0900
 
 ## System Call
 
-![스크린샷 2023-04-01 오후 2.12.17.png](LAB%20%E1%84%82%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%BC%20System%20call%20and%20User%20Program%206fee1f1d9d724b15ad084562657aa5a8/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-04-01_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_2.12.17.png)
+
+![system call](:post_pic_os_lab1_1.png)
 
 - User는 직접 system call을 호출하거나 library를 통해 호출함
 - system call도 일반적인 C 함수임. 차이점은, 내부에서 trap 명령어를 호출한다는 것
@@ -370,7 +371,7 @@ EXTRA=\
 	printf.c umalloc.c **myapp.c\**
 ```
 
-![IMG_1080.jpg](LAB%20%E1%84%82%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%BC%20System%20call%20and%20User%20Program%206fee1f1d9d724b15ad084562657aa5a8/IMG_1080.jpg)
+![user program](:post_pic_os_lab1_2.jpg)
 
-![IMG_1081.jpg](LAB%20%E1%84%82%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%BC%20System%20call%20and%20User%20Program%206fee1f1d9d724b15ad084562657aa5a8/IMG_1081.jpg)
+![user program](:post_pic_os_lab1_3.jpg)
 
