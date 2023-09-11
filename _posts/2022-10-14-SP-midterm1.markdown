@@ -16,7 +16,7 @@ img: ":post_pic_sp_midterm1_2.png"
 #comments_disable: true
 
 # publish date
-date: 2022-10-14 17:00:00 +0900
+date: 2022-10-14 15:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -44,7 +44,6 @@ date: 2022-10-14 17:00:00 +0900
 ![/etc/passwd](:post_pic_sp_midterm1_1.png){:width="700px"}
 
 /etc/passwd composed of seven colon-separated fields
-
 
 📎 **(단답형)** 사용자의 정보를 7개의 필드로 구분해서 가지고 있는 파일명은 무엇인가?                                       
 ⇒ **passwd** 또는 **/etc/passwd** (full path)
