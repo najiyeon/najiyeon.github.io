@@ -11,7 +11,7 @@ category: Operating System
 # multiple tag entries are possible
 tags: [OS, Lab]
 # thumbnail image for post
-img: ":post_pic_os_lab1_main.png"
+img: ":post_pic_os_lab1_1.png"
 # disable comments on this page
 #comments_disable: true
 
