@@ -9,7 +9,7 @@ author: Jiyeon Na
 # multiple category is not supported
 category: Computer Network
 # multiple tag entries are possible
-tags: [CN, CH15, FINAL]
+tags: [CN, FINAL]
 # thumbnail image for post
 img: ":post_pic_cn_final2_1.png"
 # disable comments on this page
