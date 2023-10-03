@@ -11,7 +11,7 @@ category: Computer Network
 # multiple tag entries are possible
 tags: [CN, FINAL]
 # thumbnail image for post
-img: ":post_pic_cn_final2_1.png"
+img: ":post_pic_cn_final2_1.jpeg"
 # disable comments on this page
 #comments_disable: true
 
