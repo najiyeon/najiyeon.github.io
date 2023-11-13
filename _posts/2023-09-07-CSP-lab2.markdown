@@ -61,7 +61,7 @@ $ pwd
 
 **Directory Type**
 
-- Normal directory : **<dir-name>**
+- Normal directory : **\<dir-name\>**
 - Current directory : **.**
 - Parent directory : **..**
 - Root directory : **/**
@@ -69,8 +69,8 @@ $ pwd
 
 **Path type**
 
-- Absolute address : **/<dir1>/<dir2> ..**
-- Relative address: : **<dir1>/<dir2>**
+- Absolute address : **/\<dir1\>/\<dir2\> ..**
+- Relative address: : **\<dir1\>/\<dir2\>**
 
 ---
 
@@ -124,7 +124,7 @@ $ cp -r <source directory> <destination directory>
 
 ---
 
-![git workflow overview](post_pic_csp_lab2_1.png)
+![git workflow overview](:post_pic_csp_lab2_1.png)
 
 **Staging Area** : 버전 관리에 등록, 파일 목록만 관리, 내용은 올리지 않음
 
@@ -195,15 +195,15 @@ $ git push
 
 **g++** : open-sourced ***C++ compiler***
 
-**g++ [options] <infile> ...**
+**g++ [options] \<infile\> ...**
 
 - **-c** : compile and assemble, but do not link Create only object file (.o) without creating executable
 - **-g** : debug info. Contains information necessary for debugging (source code, etc.)
-- **-o <outfile>** : Place the output into <outfile>
-- **-I <dir>** : include directory. (directory name to look for headers when compiling)
-- **-L <dir>** : library directory. (Directory name to look for library files when linking)
-- **-D <symbol>[=def]** : define a macro to use at compile time
-- ... : There are numerous other options.
+- **-o \<outfile\>** : Place the output into \<outfile\>
+- **-I \<dir\>** : include directory. (directory name to look for headers when compiling)
+- **-L \<dir\>** : library directory. (Directory name to look for library files when linking)
+- **-D \<symbol\>[=def]** : define a macro to use at compile time
+- **...** : There are numerous other options.
 
 ---
 
@@ -286,23 +286,24 @@ $ make clean
 
 디버깅 툴, 프로그램 build할 때 `-g` option 줘야됨
 
-**gdb [options] <command>**
+**gdb [options] \<command\>**
 
-- **<command>** : If the current directory is not in your PATH, you must include ./.
+- **\<command\>** : If the current directory is not in your PATH, you must include ./.
 
 - **Basic command**
-– **r [arguments]** : Run the given command.
+
+**r [arguments]** : Run the given command.
     
-    – **bt** : backtrack. Show current call stack status.
-    
-    – **up/down [steps]** : Move up / down a given step from the current position of the call stack.
-    
-    – **p <variable>** : Display the value of a given variable.
-    
-    – **q** : exit gdb process.
-    
-    – Use more easy-to-use improved programs such as **cgdb** and ddd
-    
-    – **s** : step in (함수로 따라 들어감)
-    
-    – **n** : next
+– **bt** : backtrack. Show current call stack status.
+
+– **up/down [steps]** : Move up / down a given step from the current position of the call stack.
+
+– **p \<variable\>** : Display the value of a given variable.
+
+– **q** : exit gdb process.
+
+– Use more easy-to-use improved programs such as **cgdb** and ddd
+
+– **s** : step in (함수로 따라 들어감)
+
+– **n** : next
