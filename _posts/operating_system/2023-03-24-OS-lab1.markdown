@@ -11,7 +11,7 @@ category: Operating System
 # multiple tag entries are possible
 tags: [OS, Lab]
 # thumbnail image for post
-img: ":post_pic_os_lab1_1.png"
+img: ":os/post_pic_os_lab1_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -42,7 +42,7 @@ date: 2023-03-24 10:04:30 +0900
 ## System Call
 
 
-![system call](:post_pic_os_lab1_1.png)
+![system call](:os/post_pic_os_lab1_1.png)
 
 - User는 직접 system call을 호출하거나 library를 통해 호출함
 - system call도 일반적인 C 함수임. 차이점은, 내부에서 trap 명령어를 호출한다는 것

@@ -11,7 +11,7 @@ category: Operating System
 # multiple tag entries are possible
 tags: [OS, Lab]
 # thumbnail image for post
-img: ":post_pic_os_lab2_main.png"
+img: ":os/post_pic_os_lab2_main.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -51,13 +51,13 @@ date: 2023-03-31 10:04:30 +0900
 
 - n번째에 해당하는 Interrupt
 
-![n interrupt](:post_pic_os_lab2_1.png)
+![n interrupt](:os/post_pic_os_lab2_1.png)
 
 - **eip register**: 다음에 실행해야할 명령어의 주소를 갖고 있는 레지스터, 다음 stack pointer의 주소를 갖고 있다.
 
 ## Interrupt Descriptor Table (IDT)
 
-![IDT](:post_pic_os_lab2_2.png)
+![IDT](:os/post_pic_os_lab2_2.png)
 
 - 모든 인터럽트는 각각의 ***entry point***를 가지고 있음
 - entry point는 인터럽트가 실제로 수행이 되는 명령어들의 시작주소
@@ -67,7 +67,7 @@ date: 2023-03-31 10:04:30 +0900
 
 ## Privilege levels in x86
 
-![privilege level in x86](:post_pic_os_lab2_3.png)
+![privilege level in x86](:os/post_pic_os_lab2_3.png)
 
 - **privilege level**: 현재 동작하고 있는 프로세스가 얼마나 큰 접근 권한을 가지고 있는지
 - xv6에선 **0,3**만 사용
@@ -77,7 +77,7 @@ date: 2023-03-31 10:04:30 +0900
 
 ## Interrupt Procedure
 
-![interrupt procedure](:post_pic_os_lab2_4.png)
+![interrupt procedure](:os/post_pic_os_lab2_4.png)
 
 - int n이 실행되면 첫번째 IDT로부터 n번째 descriptor 읽어옴
 - **CPL ≤ DPL**이어야 실행할 수 있도록 하고
@@ -87,7 +87,7 @@ date: 2023-03-31 10:04:30 +0900
 
 ## After “int n”
 
-![after int n](:post_pic_os_lab2_5.png)
+![after int n](:os/post_pic_os_lab2_5.png)
 
 - 모두 ***altraps*** 으로 jump 하게 됨
 - altrap은 cpu register를 저장하고 트랩을 호출
@@ -243,7 +243,7 @@ void
   }
 ```
 
-![stack](:post_pic_os_lab2_6.png)
+![stack](:os/post_pic_os_lab2_6.png)
 
 - stack은 아래에서 위로 쌓이기 때문에 거꾸로 되어있음
 - 이 프레임은 **x86.h**에 정의되어 있음
@@ -347,7 +347,7 @@ syscall(void)
 }
 ```
 
-![syscall](:post_pic_os_lab2_7.png)
+![syscall](:os/post_pic_os_lab2_7.png)
 
 ### Trapframe usage - arg*
 
@@ -390,7 +390,7 @@ int
 }
 ```
 
-![argint](:post_pic_os_lab2_8.png)
+![argint](:os/post_pic_os_lab2_8.png)
 
 ***sysproc.c*에서 *argint* 함수를 통해 인자를 받아옴**
 
@@ -566,7 +566,7 @@ case T_IRQ0 + 7:
 
 위와 같이 코드를 만들고 실행했을 때 
 
-![interrupt 13](:post_pic_os_lab2_9.png)
+![interrupt 13](:os/post_pic_os_lab2_9.png)
 
 ***trap.c***에서 switch 문에서 추가해준 case에 걸리지 않고, default에 걸려 위와 같이 error exception(interrupt 13)이 발생했다.
 
@@ -640,5 +640,5 @@ tvinit(void)
 
 **[정상 작동된 화면]**
 
-![correct execution](:post_pic_os_lab2_10.png)
+![correct execution](:os/post_pic_os_lab2_10.png)
 

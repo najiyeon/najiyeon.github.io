@@ -11,7 +11,7 @@ category: Computer Graphics
 # multiple tag entries are possible
 tags: [CG, Lab]
 # thumbnail image for post
-img: ":post_pic_cg_lab1_main.png"
+img: ":cg/post_pic_cg_lab1_main.png"
 # disable comments on this page
 #comments_disable: true
 

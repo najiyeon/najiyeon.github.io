@@ -11,7 +11,7 @@ category: Computer Graphics
 # multiple tag entries are possible
 tags: [CG, Lab]
 # thumbnail image for post
-img: ":post_pic_cg_lab3_1.png"
+img: ":cg/post_pic_cg_lab3_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -127,7 +127,7 @@ void main() {
 
 ## Changes in Attributes Configuration
 
-![attributes configuration](:post_pic_cg_lab3_1.png)
+![attributes configuration](:cg/post_pic_cg_lab3_1.png)
 
 ```python
 # configure vertex positions - index 0 

@@ -11,7 +11,7 @@ category: Operating System
 # multiple tag entries are possible
 tags: [OS, Lab, Setting]
 # thumbnail image for post
-img: ":post_pic_os_setting2_1.png"
+img: ":os/post_pic_os_setting2_1.png"
 # disable comments on this page
 #comments_disable: true
 

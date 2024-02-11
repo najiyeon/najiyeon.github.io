@@ -11,7 +11,7 @@ category: System Programming
 # multiple tag entries are possible
 tags: [SP, MIDTERM]
 # thumbnail image for post
-img: ":post_pic_sp_midterm2_2.png"
+img: ":sp/post_pic_sp_midterm2_2.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -41,7 +41,7 @@ date: 2022-10-14 16:00:00 +0900
 
 # 💡 Chap_3
 
-![File Descriptors](:post_pic_sp_midterm2_1.png){:width="700px"}
+![File Descriptors](:sp/post_pic_sp_midterm2_1.png){:width="700px"}
 
 File Descriptors
 
@@ -141,7 +141,7 @@ ssize_t write(int filedes, const void *buf, size_t nbytes);
 
 ## File Sharing
 
-![File Sharing_1](:post_pic_sp_midterm2_2.png){:width="700px"}
+![File Sharing_1](:sp/post_pic_sp_midterm2_2.png){:width="700px"}
 
 File Sharing_1 (그림 자체를 그리라는 문제가 나올 확률이 매우 높음)
 -오른쪽으로 갈수록 점점 하드웨어에 가까움
@@ -188,7 +188,7 @@ i-node
 
 
 
-![File Sharing_2](:post_pic_sp_midterm2_3.png){:width="700px"}
+![File Sharing_2](:sp/post_pic_sp_midterm2_3.png){:width="700px"}
 
 File Sharing_2
 → 위 그림은 구조는 똑같지만 포인팅하는 화살표의 방향과 개수가 다름
@@ -203,7 +203,7 @@ File Sharing_2
 
 
 
-![dup and dup2 Functions](:post_pic_sp_midterm2_4.png){:width="700px"}
+![dup and dup2 Functions](:sp/post_pic_sp_midterm2_4.png){:width="700px"}
 
 dup and dup2 Functions
 → 프로세스 하나가 같은 파일테이블을 가리키고 v-node도 같음

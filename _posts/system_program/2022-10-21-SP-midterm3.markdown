@@ -11,7 +11,7 @@ category: System Programming
 # multiple tag entries are possible
 tags: [SP, MIDTERM]
 # thumbnail image for post
-img: ":post_pic_sp_midterm3_1.png"
+img: ":sp/post_pic_sp_midterm3_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -62,7 +62,7 @@ int lstat(const char *pathname, struct stat *buf);
 
 ## Set-User-ID and Set-Group-ID
 
-![Set-User-ID and Set-Group-ID](:post_pic_sp_midterm3_1.png){:width="700px"}
+![Set-User-ID and Set-Group-ID](:sp/post_pic_sp_midterm3_1.png){:width="700px"}
 
 실습 6주차 강의 자료
 
@@ -153,7 +153,7 @@ int main(void)
 }
 ```
 
-![umask Function](:post_pic_sp_midterm3_2.png){:width="700px"}
+![umask Function](:sp/post_pic_sp_midterm3_2.png){:width="700px"}
 
 
 
@@ -189,7 +189,7 @@ int main(void)
 
 ## Symbolic Links (시험문제 100% 나옴)
 
-![symbolic link](:post_pic_sp_midterm3_3.png){:width="700px"}
+![symbolic link](:sp/post_pic_sp_midterm3_3.png){:width="700px"}
 
 그림, 코드 전부 외우기
 
@@ -209,7 +209,7 @@ int main(void)
 
 📎 ***Symbolic Links***
 
-![symbolic link](:post_pic_sp_midterm3_4.png){:width="700px"}
+![symbolic link](:sp/post_pic_sp_midterm3_4.png){:width="700px"}
 
 - symbolic link (=soft link) 는 hard link 와 대비됨
 - H1을 소스로 하는 hard link를 건 H2, H3를 생성하면 위와 같은 형태가 됨

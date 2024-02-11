@@ -11,7 +11,7 @@ category: Computer Graphics
 # multiple tag entries are possible
 tags: [CG, Lab]
 # thumbnail image for post
-img: ":post_pic_cg_lab2_main.png"
+img: ":cg/post_pic_cg_lab2_main.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -266,7 +266,7 @@ glBufferData(GL_ARRAY_BUFFER, vertices.nbytes, vertices.ptr, GL_STATIC_DRAW)
 
 - OpenGL은 아직 VBO를 어떻게 처리해야하는지 모름
 
-![glVertexAttribPointer](:post_pic_cg_lab2_1.png)
+![glVertexAttribPointer](:cg/post_pic_cg_lab2_1.png)
 
 → 이걸 알려줘야함
 
@@ -300,7 +300,7 @@ void main()
 
 → specifying vertex attribute index
 
-![VAO](:post_pic_cg_lab2_2.png)
+![VAO](:cg/post_pic_cg_lab2_2.png)
 
 ## Drawing 1 : Activate VAO
 
@@ -325,4 +325,4 @@ glDrawArrays(GL_TRIANGLES, 0, 3)
 
 ### primitive Types
 
-![primitive types](:post_pic_cg_lab2_3.png)
+![primitive types](:cg/post_pic_cg_lab2_3.png)

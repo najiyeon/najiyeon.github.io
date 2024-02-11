@@ -11,7 +11,7 @@ category: System Programming
 # multiple tag entries are possible
 tags: [SP, FINAL]
 # thumbnail image for post
-img: ":post_pic_sp_final2_1.png"
+img: ":sp/post_pic_sp_final2_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -51,7 +51,7 @@ date: 2022-12-09 16:00:00 +0900
 
 ## Controlling Terminal
 
-![controlling terminal](:post_pic_sp_final2_1.png){:width="700px"}
+![controlling terminal](:sp/post_pic_sp_final2_1.png){:width="700px"}
 
 
 

@@ -11,7 +11,7 @@ category: Computer Network
 # multiple tag entries are possible
 tags: [CN, FINAL]
 # thumbnail image for post
-img: ":post_pic_cn_final1_1.png"
+img: ":cn/post_pic_cn_final1_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -41,7 +41,7 @@ date: 2022-12-17 17:00:00 +0900
 
 # Chapter 13) Introduction to the Transport Layer
 
-![transport layer](:post_pic_cn_final1_1.png){:width="700px"}
+![transport layer](:cn/post_pic_cn_final1_1.png){:width="700px"}
 
 ## Flow control(흐름 제어)
 

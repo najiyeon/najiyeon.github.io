@@ -11,7 +11,7 @@ category: System Programming
 # multiple tag entries are possible
 tags: [SP, FINAL]
 # thumbnail image for post
-img: ":post_pic_sp_final1_1.png"
+img: ":sp/post_pic_sp_final1_1.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -43,7 +43,7 @@ date: 2022-12-09 15:00:00 +0900
 
 ## Memory Layout of a C Program
 
-![memory layout](:post_pic_sp_final1_1.png){:width="700px"}
+![memory layout](:sp/post_pic_sp_final1_1.png){:width="700px"}
 
 ☁️ ***Memory Layout (가상 메모리 구조)***
 

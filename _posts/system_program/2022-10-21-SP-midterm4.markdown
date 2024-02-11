@@ -11,7 +11,7 @@ category: System Programming
 # multiple tag entries are possible
 tags: [SP, MIDTERM]
 # thumbnail image for post
-img: ":post_pic_sp_midterm4_main.png"
+img: ":sp/post_pic_sp_midterm4_main.png"
 # disable comments on this page
 #comments_disable: true
 

@@ -96,14 +96,14 @@ Client > Server : TCP ACK
 
 - 'A'라는 문자 하나를 보낸다고 가정하자. 이를 보내기 위해서는 TCP header가 필요하다. header는 20 byte, data는 1byte, IP도 20 byte, 프레임으로 가면 MAC header도 필요하다. 우선 이것만 가정해도 1byte를 보내기 위해서는 많은 byte가 필요하다. 이러한 문제점이 송신 측에서 발생하는 syndrome이고, 보내는 데이터에 비해 header의 크기가 훨씬 큰 경우를 silly window syndrome이라고 한다.
 
-![silly window syndorme](:post_pic_cn_final2_4.png){:width="700px"}
+![silly window syndorme](:cn/post_pic_cn_final2_4.png){:width="700px"}
 
 - 'A' 문자를 보내고 서버로부터 ACK이 올 때를 생각해보자. nagle 알고리즘에서는 첫 번째 데이터는 그냥 보내고, 보낼 데이터가 MSS 만큼 쌓이면 상대한테 보낸다. MSS보다 작을 경우네는 보낸 데이터에 대한 ACK을 기다린다. ACK이 오기 전까지는 대기시켜두고, ACK이 오면 데이터를 전송한다.
 - MSS는 Maximum Segment Size의 약자이고, 이는 정의된 크기이다.
 
 ## Congestion Control (혼잡 제어)
 
-![congestion control](:post_pic_cn_final2_5.png){:width="700px"}
+![congestion control](:cn/post_pic_cn_final2_5.png){:width="700px"}
 
 - 위 그림과 같이 각 TCP connection 1,2가 100Mbps의 용량으로 데이터를 보내고, router에서 나가는 데이터가 100Mbps이면, 들어오는 데이터는 200Mbps인데 나가는 데이터가 100Mbps이므로 병목현상이 일어난다.
 
@@ -135,18 +135,18 @@ Client > Server : TCP ACK
 
 - Time-out 발생하는 것을 detect 하는 역할. 보통 3-duplicated ACK으로도 탐색을 할 수 있지만, Time-out으로도 packet loss에 대해 탐색이 가능하다. Time-out을 만나면 slow start로 바뀐다.
 
-![retransmission timer](:post_pic_cn_final2_8.png)
+![retransmission timer](:cn/post_pic_cn_final2_8.png)
 
 - 여기서 RTTs는 평균, RTTd는 편차라고 이해하면 된다.
 
-![tcp timers](:post_pic_cn_final2_9.png)
+![tcp timers](:cn/post_pic_cn_final2_9.png)
 
 - 이런식으로 가중치를 두면서 평균을 구하는 것을 EWMA라고 부른다.
 - 여기서 RTTm은 새로 측정한 값이고, RTTs는 이전 값이다.
 - 처음 측정을 시작하면 첫 값을 RTTs라고 두고 사용한다.
 - α 값은 1/8로 두고 사용한다
 
-![tcp timers](:post_pic_cn_final2_10.png)
+![tcp timers](:cn/post_pic_cn_final2_10.png)
 
 - 편차에 대해서도 가중치를 적용한다. β값은 1/4이다.
 - 만약 첫 번째 측정인 경우 RTTd=RTTm/2로 설정한다.
