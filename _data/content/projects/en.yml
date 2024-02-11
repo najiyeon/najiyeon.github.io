@@ -25,6 +25,9 @@ page_data:
         - title: "CSharp"
           type: id_csharp
           color: "gray"
+        - title: "Java"
+          type: id_java
+          color: "#27374D"
 
     list:
         # python
@@ -223,3 +226,15 @@ page_data:
                 - "After School; 3D Mystery Game" is a 3D mystery game implemented in Unity, based on the debut work "After School" by the famous Japanese novelist Keigo Higashino. Acquire clues to uncover the secrets of the locked room and find the culprit!
 
               [**After-School source code**](https://github.com/After-School-2023/After_School)
+
+        # Java
+        - type: id_java
+          project_name: "Blueboard"
+          project_excerpt: "An online educational platform application developed in Java."
+          img: ":blueboard.png"
+          img_title: "Blueboard"
+          date: "2023-09-24"
+          post: |
+              #### Blueboard
+
+              [**Blueboard source code**](https://github.com/najiyeon/Blueboard)
